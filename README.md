@@ -1,4 +1,4 @@
-# Gradle Enterprise API Samples
+# Gradle Enterprise Compare Goal Execution Times
 
 This repository demonstrates using the Gradle Enterprise API and generating client code from its OpenAPI specification.
 
