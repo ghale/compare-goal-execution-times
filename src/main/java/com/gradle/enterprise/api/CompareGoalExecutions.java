@@ -13,8 +13,8 @@ import java.util.concurrent.Callable;
 import java.util.stream.Collectors;
 
 @Command(
-    name = "gradle-enterprise-api-samples",
-    description = "A sample program that demonstrates using the Gradle Enterprise API to extract build data about build cache performance",
+    name = "compare-goal-execution-times",
+    description = "A sample program that demonstrates using the Gradle Enterprise API to compare Maven goal execution times",
     synopsisHeading = "%n@|bold Usage:|@ ",
     optionListHeading = "%n@|bold Options:|@%n",
     commandListHeading = "%n@|bold Commands:|@%n",
