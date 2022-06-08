@@ -18,7 +18,7 @@ val apiSpecificationFile = apiSpecificationFileGradleProperty
         .convention(provider { resources.text.fromUri("${baseApiUrl.get()}gradle-enterprise-${gradleEnterpriseVersion}-api.yaml").asFile() }))
 
 application {
-    mainClass.set("com.gradle.enterprise.api.CompareTaskExecutions")
+    mainClass.set("com.gradle.enterprise.api.CompareGoalExecutions")
 }
 
 swaggerSources.configureEach {
